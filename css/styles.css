@@ -45,3 +45,27 @@ nav-link {
     padding-left: 20px;
     font-size: 20px;
 }
+
+.dropdownLink {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    ul.topnav li a.nav-link {
+        display: none;
+    }
+
+    ul.topnav li.dropdownLink {
+        display: block;
+        position: absolute;
+        top: 15%;
+        right: 20%;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+    }
+
+}
+
+/* End of the media query */
