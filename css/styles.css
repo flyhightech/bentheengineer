@@ -62,9 +62,20 @@ nav-link {
         right: 20%;
     }
 
-    ul.topnav.responsive li a {
+    ul.topnav.responsive {
+        flex-direction: column;
+    }
+
+    ul.topnav.responsive li {
+        position: relative;
+        top: 30px;
+    }
+
+    ul.topnav.responsive li a.nav-link {
         display: block;
     }
+
+
 
 }
 
