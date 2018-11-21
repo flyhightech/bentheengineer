@@ -13,6 +13,24 @@ body {
 .navbar {
     display: flex;
     padding: 10px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.brand,
+nav-link {
+    text-transform: uppercase;
+    color: black;
+}
+
+.brand {
+    font-size: 30px;
+}
+
+.hightech {
+    color: blue;
 }
 
 .topnav {
@@ -25,4 +43,5 @@ body {
 .topnav .nav-link {
     text-decoration: none;
     padding-left: 20px;
+    font-size: 20px;
 }
