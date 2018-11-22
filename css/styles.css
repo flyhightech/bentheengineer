@@ -77,8 +77,26 @@ header {
 }
 
 .services {
-    background-color: orangered;
+    background-color: lightgray;
     padding: 4rem 1rem;
+}
+
+.media-object {
+    display: flex;
+}
+
+.icon {
+    width: 130px;
+}
+
+.icon-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blurb-wrapper {
+    flex: 1;
 }
 
 /* Media Queries */
