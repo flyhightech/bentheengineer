@@ -72,6 +72,11 @@ header {
     width: 100%;
 }
 
+.services {
+    background-color: orangered;
+    padding: 4rem 1rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
