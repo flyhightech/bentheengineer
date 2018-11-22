@@ -52,6 +52,26 @@ a {
     display: none;
 }
 
+/* Below is the code for the header of the page*/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.headshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
