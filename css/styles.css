@@ -20,13 +20,14 @@ body {
 }
 
 .brand,
-nav-link {
+nav-link,
+a {
     text-transform: uppercase;
     color: black;
 }
 
 .brand {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .hightech {
@@ -40,7 +41,8 @@ nav-link {
     list-style: none;
 }
 
-.topnav .nav-link {
+.topnav .nav-link,
+a {
     text-decoration: none;
     padding-left: 20px;
     font-size: 20px;
@@ -59,13 +61,14 @@ nav-link {
 
     ul.topnav li.dropdownLink {
         display: block;
-        position: relative;
+        position: absolute;
         right: 20px;
     }
 
     ul.topnav.responsive li.dropdownLink {
+        display: block;
         position: absolute;
-        top: 15px;
+        top: 10px;
         right: 20px;
     }
 
@@ -82,7 +85,7 @@ nav-link {
 
     ul.topnav.responsive li a.nav-link {
         display: block;
-        line-height: 1.5;
+        line-height: 2;
     }
 
 
