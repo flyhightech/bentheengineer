@@ -10,13 +10,18 @@ body {
     margin: 0;
 }
 
-.navbar {
+.navbar,
+.container {
     display: flex;
-    padding: 10px;
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+
+}
+
+.navbar {
     justify-content: space-between;
+    padding: 10px;
 }
 
 .brand,
