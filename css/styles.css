@@ -144,6 +144,23 @@ header {
     padding: 3rem 0 3rem;
 }
 
+.portfolio-wrapper {
+    display: flex;
+    max-width: 250px;
+}
+
+.portfolio-box {
+    width: 250px;
+    height: 250px;
+    background-color: dimgrey;
+    transition: .7s ease-in-out;
+}
+
+.portfolio-box:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
