@@ -178,6 +178,20 @@ form label {
     margin-bottom: .75rem;
 }
 
+.form-control {
+    max-width: inherit;
+    width: 100%;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 2px;
+    border: 2px solid #ced4da;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    display: block;
+}
+
 
 /* Media Queries */
 
