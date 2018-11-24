@@ -76,7 +76,8 @@ header {
     width: 100%;
 }
 
-.services {
+.services,
+.contact-container {
     background-color: lightgray;
     padding: 4rem 1rem;
 }
@@ -166,6 +167,8 @@ header {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+
 
 /* Media Queries */
 
