@@ -122,6 +122,21 @@ header {
     font-size: 20px;
 }
 
+.quote-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+.quote-btn {
+    color: white;
+    background-color: aqua;
+    font-size: 20px;
+    padding: .8rem 4rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .5)
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
