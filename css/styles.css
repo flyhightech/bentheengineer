@@ -137,6 +137,13 @@ header {
     box-shadow: 0 5px 20px rgba(0, 0, 0, .5)
 }
 
+/* Section 2 Styles Below */
+
+.section-header {
+    text-align: center;
+    padding: 3rem 0 3rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
