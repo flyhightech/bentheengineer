@@ -146,6 +146,11 @@ header {
 
 .portfolio-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-object {
     max-width: 250px;
 }
 
