@@ -168,6 +168,15 @@ header {
     transform: scale(1.1);
 }
 
+/* Contact Section */
+
+form label {
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: .75rem;
+}
 
 
 /* Media Queries */
