@@ -192,6 +192,10 @@ form label {
     display: block;
 }
 
+.submit-btn-wrapper {
+    margin-top: 2rem;
+}
+
 
 /* Media Queries */
 
@@ -246,6 +250,14 @@ form label {
     }
 
     .portfolio-wrapper {
+        text-align: center;
+    }
+
+    .form-group {
+        display: flex;
+    }
+
+    .submit-btn-wrapper {
         text-align: center;
     }
 
