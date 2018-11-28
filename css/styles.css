@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 .navbar,
 .container {
     max-width: 1140px;
@@ -27,7 +32,7 @@ body {
 nav-link,
 a {
     text-transform: uppercase;
-    color: black;
+    color: yellow;
 }
 
 .brand {
