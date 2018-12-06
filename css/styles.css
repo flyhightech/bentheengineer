@@ -150,6 +150,10 @@ header {
     padding: 3rem 0 3rem;
 }
 
+.portfolio {
+    margin: 75px;
+}
+
 .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
