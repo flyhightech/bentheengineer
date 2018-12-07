@@ -145,6 +145,11 @@ header {
 
 /* Section 2 Styles Below */
 
+.dragonBallZImg {
+    width: 100px;
+    height: 100px;
+}
+
 .section-header {
     text-align: center;
     padding: 3rem 0 3rem;
