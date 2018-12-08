@@ -2,16 +2,18 @@ body {
     margin: 0;
     text-align: center;
     line-height: 2;
+
 }
 
 h1 {
     font-size: 90px;
-    color: aqua;
+    color: black;
     margin: 50 auto 0 auto;
+    font-family: Sacramento;
 }
 
 h2 {
-    color: #66BFBF;
+    color: darkblue;
     font-weight: normal;
 }
 
