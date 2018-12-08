@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     line-height: 2;
-
+    color: #40514E;
 }
 
 h1 {
@@ -15,6 +15,21 @@ h1 {
 h2 {
     color: darkblue;
     font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 2rem;
+}
+
+span {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 2;
 }
 
 hr {
@@ -34,8 +49,6 @@ a:hover {
     color: red;
 }
 
-/* Class Selectors */
-
 .top-container {
     background-color: antiquewhite;
     position: relative;
@@ -44,6 +57,12 @@ a:hover {
 
 .pro {
     text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    height: 50%;
 }
 
 .top-cloud {
@@ -64,18 +83,12 @@ a:hover {
     border-radius: 50%;
 }
 
-.intro {
-    width: 50%;
-    margin: auto;
-    height: 50%;
-}
-
 .middle-container {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .bottom-container {
-    background-color: beige;
+    background-color: darkblue;
     padding: 50px 0 20px;
 }
 
