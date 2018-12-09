@@ -114,6 +114,14 @@ a:hover {
     margin-left: 30px;
 }
 
+.graphicIcon {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
 .contact-message {
     width: 50%;
     margin: 40px auto;
