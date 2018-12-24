@@ -1,67 +1,141 @@
 <!DOCTYPE html>
 <html>
+<!-- Head Section -->
 
 <head>
-    <!-- Test-->
-    <title>Bernard's Landing Page</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Great+Vibes|Sacramento" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>BenTheDeveloper</title>
 </head>
+<!-- Body Section -->
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand">flyhigh<span class="tech">tech</span></div>
+        <ul class="topnav" id="navbar-toggle">
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Blog</a></li>
+            <li><a class="nav-link" href="#">Portfolio</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+            <li class="dropdownLink"><a onclick="toggleDropDown()" href="javascript:void(0)">&#9776;</a></li>
+        </ul>
+    </nav>
+    <!-- Navbar End -->
 
-    <div class="top-container">
-        <img class="top-cloud" src="assets/cloud.png" alt="cloud-img">
-        <h1>I'm Bernard</h1>
-        <h2>A <span>Dev</span>eloper</h2>
-        <img class="bottom-cloud" src="assets/cloud.png" alt="cloud-img">
-        <img src="assets/mountain.png" alt="mountain-img">
-    </div>
+    <!-- Header Section -->
 
-    <div class="middle-container">
-        <div class="profile">
-            <img class="profilePic" src="assets/IMG_0146.jpg" alt="profile image">
-            <h2>What's Sup?</h2>
-            <p class="intro">I enjoy the overall creative process of taking an idea and making it a reality. Founder and head developer of Flyhightech.LLC located in Chicago,IL.
-            </p>
+    <header>
+        <div class="headshot-wrapper">
+            <img class="headshot" src="assets/headshot.jpg" alt="profile image">
+            <h1>Bernard A. Huff</h1>
         </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="websiteIcon" src="https://media.giphy.com/media/vMkY0I2AIAyo8/source.gif" alt="">
-                <h3>Website Developement</h3>
-                <p>From creating wireframes and prototypes I give each phase of the creative process a monkish like attention to detail in each project.</p>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <div class="media-object">
+                <div class="icon-left">
+                    <img class="icon" src="assets/graph_lines.svg" alt="graph image">
+                </div>
+                <div class="blerb-wrapper-right">
+                    <h3 class="blerb-header">Fashion leggings street art. </h3>
+                    <div class="blerb-info">Craft beer viral salvia iPhone, whatever cardigan taiyaki taxidermy bitters pork belly small batch knausgaard helvetica af.</div>
+                </div>
             </div>
-            <div class="skill-row">
-                <img class="appIcon" src="https://media.giphy.com/media/3oKIPtaS9TtrmIzXRm/source.gif" alt="">
-                <h3>iOS App Development</h3>
-                <p>Building out the design and coding the interface of iOS apps is a passion of mine. Giving clients even more visibility with mobile apps across all of apples platforms.</p>
+            <div class="media-object">
+                <div class="icon-right">
+                    <img class="icon" src="assets/pie_chart.svg" alt="graph image">
+                </div>
+                <div class="blerb-wrapper-left">
+                    <h3 class="blerb-header">Fashion leggings street art. </h3>
+                    <div class="blerb-info">Cardigan wayfarers direct trade VHS, mumblecore tote bag poutine umami aesthetic post-ironic DIY mustache keytar cronut hot chicken. </div>
+                </div>
             </div>
-            <div class="skill-row">
-                <img class="graphicIcon" src="https://media.giphy.com/media/l0Exm8xQJVmo1WtSU/source.gif" alt="">
-                <h3>Graphic Design</h3>
-                <p>What better way to grab your clients attention than with a customized graphic that shows off your style and personality. </p>
+            <div class="media-object">
+                <div class="icon-left">
+                    <img class="icon" src="assets/assistant_icon.svg" alt="graph image">
+                </div>
+                <div class="blerb-wrapper-right">
+                    <h3 class="blerb-header">Fashion leggings street art. </h3>
+                    <div class="blerb-info">Glossier seitan 90's quinoa, 3 wolf moon fashion axe jean shorts kogi selvage put a bird on it polaroid freegan mixtape echo park ennui.</div>
+                </div>
             </div>
         </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>I'm Availible For Hire</h3>
-            <p class="contact-message">Send me an email and lets get started on your awesome project.</p>
-            <a class="butn" href="mailto:flyhightech3@gmail.com">Contact Me</a>
+        <div class="quote-btn-wrapper">
+            <button class="quote-btn">Get a quote</button>
         </div>
-    </div>
+    </section>
 
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="header">Previous Projects</h1>
+            </div>
+            <div class="portfolio-wrapper">
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+                <div class="portfolio-object">
+                    <div class="portfolio-box"></div>
+                    <h4>Projects</h4>
+                    <div class="portfolio-text">
+                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/bernardahuff/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/flyhightechno">Twitter</a>
-        <a class="footer-link" href="https://github.com/flyhightech">GitHub</a>
-        <p>© 2018 Flyhightech.LLC</p>
-    </div>
-
+    <!-- Script files below -->
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 
 </body>
 
