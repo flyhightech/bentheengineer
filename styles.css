@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+.flyhightechIcon {
+    height: 25px;
+    width: 25px;
+}
+
 .navbar,
 .container {
     max-width: 1140px;
@@ -25,6 +30,8 @@ body {
 
 .brand {
     font-size: 20px;
+    display: flex;
+    text-align: left;
 }
 
 .brand,
