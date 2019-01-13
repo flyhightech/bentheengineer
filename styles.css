@@ -171,6 +171,8 @@ header {
 .portfolio-box {
     width: 250px;
     height: 250px;
+    background-image: url(assets/loginImage.png);
+    background-position: center;
     background-color: yellow;
     transition: .3s ease-in-out;
 }
