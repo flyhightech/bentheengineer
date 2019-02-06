@@ -171,10 +171,25 @@ header {
 .portfolio-box {
     width: 250px;
     height: 250px;
-    background-image: url(assets/screenshot.png);
+
     background-position: center;
     background-color: yellow;
     transition: .3s ease-in-out;
+}
+
+.portfolio-box1 {
+    background-image: url(assets/screenshot.png);
+    max-height: 250px;
+}
+
+.portfolio-box2 {
+    background-image: url(assets/homepageOne.png);
+    max-height: 250px;
+}
+
+.portfolio-box3 {
+    background-image: url(assets/screenshot%202.png);
+    max-height: 250px;
 }
 
 .portfolio-box:hover {
