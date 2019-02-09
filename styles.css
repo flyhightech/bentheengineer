@@ -28,6 +28,10 @@ body {
     padding: 10px;
 }
 
+.headerSection {
+    background-image: url(assets/Chicago_Skyline.jpg);
+}
+
 .brand {
     font-size: 20px;
     display: flex;
@@ -86,7 +90,8 @@ header {
 
 .services,
 .contact-container {
-    background-color: dimgray;
+    background-color: black;
+    color: white;
     padding: 4rem 1rem;
 }
 

@@ -4,6 +4,11 @@ body {
 
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
 .jumbotron {
     background-image: url(background.jpg);
     color: white;
@@ -28,12 +33,13 @@ body {
 
 .appStoreLogo {
     width: 200px;
+    text-align: center;
 }
 
 #footer {
 
     background-color: aqua;
-    padding-top: 150px;
+    padding-top: 50px;
     margin-top: 50px;
     text-align: center;
     padding-bottom: 150px;
