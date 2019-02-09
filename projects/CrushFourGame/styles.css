@@ -1,3 +1,9 @@
+body {
+
+    position: relative;
+
+}
+
 .jumbotron {
     background-image: url(background.jpg);
     color: white;
@@ -31,10 +37,4 @@
     margin-top: 50px;
     text-align: center;
     padding-bottom: 150px;
-}
-
-body {
-
-    position: relative;
-
 }
