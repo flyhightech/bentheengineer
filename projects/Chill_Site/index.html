@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<!-- Test -->
+
+<head>
+    <title> Chill Site </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Chill</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Blog</a></li>
+            <li><a href="#about">Shop</a></li>
+            <li class="topnav-right"><a href="#signUp">Sign-Up</a></li>
+            <li class="topnav-right"><a href="#signIn">Sign-In</a></li>
+
+            <!--            The following code prevents the javascript from running            -->
+
+            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+
+            <!--            That piece of code ends here.             -->
+
+        </ul>
+    </nav>
+
+    <div class="container" id="section_1_gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1 class="large"> Built for Developers </h1>
+                </div>
+                <form>
+                    <div class="leftside-col">
+                        <h2>Username</h2>
+                        <input class="inputbox" name="username" type="text" placeholder="Username">
+                        <h2>Password</h2>
+                        <input class="inputbox" name="password" type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="videoContainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EnHkibxvdfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="section2Header">The Coders Journey</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <div>
+                        <label> Chat with me </label>
+                        <p>Lorem ipsum dolor amet umami austin vexillologist, tumeric food truck craft beer sartorial truffaut pok pok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <div>
+                        <label> Learn Code </label>
+                        <p>Lorem ipsum dolor amet umami austin vexillologist, tumeric food truck craft beer sartorial truffaut pok pok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <div>
+                        <label> Design App </label>
+                        <p>Lorem ipsum dolor amet umami austin vexillologist, tumeric food truck craft beer sartorial truffaut pok pok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore"> Learn More </button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>
+                        Forage intelligentsia coloring book slow-carb butcher unicorn tousled keffiyeh. Heirloom ethical jianbing retro stumptown knausgaard intelligentsia authentic selfies celiac kinfolk gluten-free venmo.
+                    </p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="iOS-Slope.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Products</h1>
+                <ul>
+                    <li>Electronics</li>
+                    <li>Games</li>
+                    <li>Apps</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Learn More</h1>
+                <ul>
+                    <li>Developers</li>
+                    <li>Designers</li>
+                    <li>Creators</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Support</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>Q/A</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Below are the scripts -->
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
