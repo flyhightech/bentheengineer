@@ -1,0 +1,70 @@
+
+/*------------------------------------------------------------------
+   Theme Color Settng
+-------------------------------------------------------------------*/
+.theme-text{color:#ffd200;}
+.theme-bg{background:#ffd200;}
+.dark-bg {background: #181818}
+
+.theme-border{border-color:#ffd200; color:#ffd200;}
+.dark-bg .heading-block span.theme-text{color:#ffd200;}
+
+.feature-box.feature-text1 .step{color: #ffd200}
+.feature-box.feature-text1 .step:before{background:#ffd200;}
+
+/* Feature Section */
+.feature-section .feature,
+.feature-section .feature-info p,
+.feature-section .feature .fa,.feature-section .feature .lnr,
+.feature-section .feature h4,.feature-section .theme-bg .feature h4{color:#323232;}
+
+
+/* Time line */
+.timeline3 .timeline-body .title:before{background:#ffd200;}
+.dark-bg .timeline3 .theme-text{color:#ffd200;}
+
+
+/* Counter */
+.counter.timer-lg .counter-info .timer{color:#ffd200;}
+
+
+/* Testimonils */
+.testimonials .item p{font-size:22px; line-height:34px;}
+
+/**************************/
+/* Button Setting */
+/**************************/
+.btn.theme-bg{background:#ffd200;}
+.btn.theme-text, .btn-link{color:#ffd200;}
+.btn.theme-border{border-color:#ffd200;}
+.btn.theme-outline{border-color:#ffd200;}
+
+.btn-default, .btn-default:hover{background:#ffd200;}
+.btn-outline{border-color:#ffd200; color:#ffd200; background:transparent;}
+.btn-outline:hover{background:transparent;}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:active:focus{border-color:#ffd200; color:#ffd200;}
+
+.btn.fill-theme:before{background:#ffd200;}
+.btn.fill-theme:hover{border-color:#ffd200;}
+
+/************************/
+/* Extra */
+/************************/
+.post-overlay,
+.progress-bar,
+.overlay[data-overlay-color="theme"]:after{background:#ffd200;}
+.post.light-box .post-image > i{color:#ffd200;}
+.post.light-box .categery{border-color:#ffd200; color:#ffd200;}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#ffd200;}
+
+
+#back-to-top .top{background:#ffd200;}
+
+@media (max-width:767px){
+.feature-construction .row-eq-height,
+.why-us-construction .row-eq-height{display:block;}
+}

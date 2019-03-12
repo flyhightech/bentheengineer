@@ -1,0 +1,72 @@
+
+/*==============================================
+ Base
+ ===============================================*/
+body {
+    color: #535353;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{margin: 0 0 30px 0;  font-family: 'Source Sans Pro', sans-serif; font-weight: 700; letter-spacing: 0; color: #383838;  line-height: 1.5;}
+
+a:hover,a:focus { color: #327ec7;}
+.lead{font-weight: 500}
+
+.theme-text,  h1.theme-text, h2.theme-text, h3.theme-text, h4.theme-text, h5.theme-text, h6.theme-text{color: #416cbf}
+.dark-bg{background: #31333e}
+.grey-bg{background: #f6f6f6}
+.theme-bg{background: #416cbf}
+
+.feature h3{font-weight: 700}
+.separator {margin-top: 20px; margin-bottom: 20px}
+
+.bg1{background: #4f7cda}
+.bg2{background: #416cbf}
+.bg3{background: #3d64b2}
+
+.header-slide .owl-carousel .owl-item:before{background: #fff; opacity: 0}
+.doctor-img{margin-top:-80px;}
+
+/**************************/
+/* Button Setting */
+/**************************/
+.btn.theme-bg{background:#416cbf;}
+.btn.theme-text, .btn-link{color:#416cbf;}
+.btn.theme-border{border-color:#416cbf;}
+.btn.theme-outline{border-color:#416cbf;}
+
+.btn-default, .btn-default:hover{background:#416cbf;}
+.btn-outline{border-color:#416cbf; color:#416cbf; background:transparent;}
+.btn-outline:hover{background:transparent;}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:active:focus{border-color:#416cbf; color:#416cbf;}
+
+.btn.fill-theme:before{background:#416cbf;}
+.btn.fill-theme:hover{border-color:#416cbf;}
+
+/************************/
+/* Extra */
+/************************/
+.post-overlay,
+.progress-bar,
+.overlay[data-overlay-color="theme"]:after{background:#416cbf;}
+.post.light-box .post-image > i{color:#416cbf;}
+.post.light-box .categery{border-color:#416cbf; color:#416cbf;}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#416cbf;}
+
+.bottom_border{    border-bottom: 1px solid rgba(255,255,255,.2);}
+
+
+#back-to-top .top{background:#416cbf;}
+
+@media (max-width:992px){
+.medical-rules .row-eq-height{display:block;}
+}

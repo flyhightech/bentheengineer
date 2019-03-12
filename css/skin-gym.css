@@ -1,0 +1,82 @@
+
+/*==============================================
+ Base
+ ===============================================*/
+body{color:#333;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{margin:0 0 30px 0; font-family:'Oswald', sans-serif; font-weight:500; letter-spacing:0; color:#383838; line-height:1.5;}
+
+a:hover,a:focus { color: #e54747;}
+
+.theme-text, h1.theme-text, h2.theme-text, h3.theme-text, h4.theme-text, h5.theme-text, h6.theme-text{color: #e54747}
+.dark-bg p.theme-text{color:#e54747;}
+
+.dark-bg{background-color: #202020;}
+.grey-bg{background-color: #f8f8f8;}
+.theme-bg{background-color: #e54747;}
+
+/**************************/
+/* Feature Box */
+/**************************/
+.feature-info h2, .feature-info h3, .feature-info h4, .feature-info h5, .feature-info h6{font-weight:600;}
+.feature-info ul li span{width:140px; display:inline-block;}
+
+/**************************/
+/* Pricing Table */
+/**************************/
+.pricing-table.active .pricing-table-header{background-color: #e54747;}
+
+/**************************/
+/* Button Setting */
+/**************************/
+.btn.theme-bg{background:#e54747;}
+.btn.theme-text, .btn-link{color:#e54747;}
+.btn.theme-border{border-color:#e54747;}
+.btn.theme-outline{border-color:#e54747;}
+
+.btn-default, .btn-default:hover{background:#e54747;}
+.btn-outline{border-color:#e54747; color:#e54747; background:transparent;}
+.btn-outline:hover{background:transparent;}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:active:focus{border-color:#e54747; color:#e54747;}
+
+.btn.fill-theme:before{background:#e54747;}
+.btn.fill-theme:hover{border-color:#e54747;}
+
+/************************/
+/* Extra */
+/************************/
+.post-overlay,
+.progress-bar,
+.overlay[data-overlay-color="theme"]:after{background:#e54747;}
+.post.light-box .post-image > i{color:#e54747;}
+.post.light-box .categery{border-color:#e54747; color:#e54747;}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#e54747;}
+
+
+.team.classes {overflow:hidden;}
+.team.classes .member-image:before{background: rgba(0, 0, 0, 0.7)}
+.team.classes:hover .member-image:before{background: rgba(0, 0, 0, 0.5)}
+.team.classes .team-info .member-position{font-size: 14px; color: #e54747}
+.team.classes .team-info .social{margin-bottom: -100px;}
+.team.classes:hover .team-info .social{margin-bottom: 0;}
+
+
+#back-to-top .top{background:#e54747;}
+
+@media (max-width:992px){
+.gym-rules .feature.icon-position-left .feature-icon{min-width:60px;}
+.gym-rules .row-eq-height,
+.gym-our-classes .row-eq-height{display:block;}
+}
+
+@media (max-width:767px){
+.gym-about{background:none !important;}
+}

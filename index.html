@@ -1,161 +1,588 @@
 <!DOCTYPE html>
-<html>
-<!-- Head Section -->
+<!--
+   Template: Flyhightech - Multipurpose HTML Template Built With Twitter Bootstrap 3.3.7
+   Version: 1.0.0
+   -->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
+   <![endif]-->
+   <!--[if IE 7]>
+   <html class="no-js lt-ie9 lt-ie8" lang="">
+      <![endif]-->
+      <!--[if IE 8]>
+      <html class="no-js lt-ie9" lang="">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html class="no-js" lang="en">
+            <!--<![endif]-->
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>BenTheDeveloper</title>
+    <meta charset="utf-8">
+    <title>Bernard Huff</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <!-- line icons -->
+    <link rel="stylesheet" href="css/linearicons.css" type="text/css" />
+    <!-- simple-line-icons-->
+    <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" type="text/css" />
+    <!-- shortcodes -->
+    <link rel="stylesheet" href="css/shortcodes.css" type="text/css" />
+    <!-- base -->
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+    <!-- Bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css" type="text/css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- Skin -->
+    <link href="css/skin-personal.css" rel="stylesheet" type="text/css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
-<!-- Body Section -->
-
 <body>
-
-    <!-- Navbar -->
-
-    <nav class="navbar sticky-top">
-        <a href="index.html"><img class="flyhightechIcon" src="assets/flyhightech_Icon.png"></a>
-        <ul class="topnav" id="navbar-toggle">
-            <li><a class="nav-link" href="about.html">About</a></li>
-            <li><a class="nav-link" href="blog.html">Blog</a></li>
-            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link" href="contact.html">Contact</a></li>
-            <li class="dropdownLink"><a onclick="toggleDropDown()" href="javascript:void(0)">&#9776;</a></li>
-        </ul>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="clear-loading loading-effect"><img src="images/loading.gif" width="100" alt=""></div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed no-background dark navbar-scrollspy navbar-full bootsnav" data-minus-value-desktop="77" data-minus-value-mobile="0" data-speed="1000">
+        <div class="container pos-r">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i class="fa fa-bars"></i></button>
+                <a class="navbar-brand" href="#brand"><img src="images/brand/logo-black.png" class="logo" alt=""></a>
+            </div>
+            <!-- End Header Navigation -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav" data-in="zoomIn" data-out="zoomOut">
+                    <li class="active scroll"><a href="#home">Home</a></li>
+                    <li class="scroll"><a href="#about">About</a></li>
+                    <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                    <li class="scroll"><a href="#skill">Skill</a></li>
+                    <li class="scroll"><a href="#history">History</a></li>
+                    <li class="scroll"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
     </nav>
+    <div class="clearfix"></div>
+    <section id="home" class="full-height bg header-slide single-image" data-bg-img="">
 
-    <!-- Navbar End -->
-
-    <!-- Header Section -->
-
-    <header class="headerSection">
-        <div class="headshot-wrapper">
-            <img class="headshot" src="assets/headshot.jpg" alt="profile image">
-
-            <h1> Bernard A Huff</h1>
-
-            <h2>I'm a Web | Mobile software <br> developer from Chicago, IL</h2>
-        </div>
-    </header>
-
-    <section class="services">
         <div class="container">
-            <div class="media-object">
-                <div class="icon-left">
-                    <img class="icon" src="https://media.giphy.com/media/ZgTR3UQ9XAWDvqy9jv/giphy.gif" alt="graph image">
-                </div>
-                <div class="blerb-wrapper-right">
-                    <h3 class="blerb-header">Website Design </h3>
-                    <div class="blerb-info">I can create custom websites utilizing the latest in web technologies making it fast and responsive.
-                    </div>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h3 class="title text-uppercase theme-text">Hi, I'm Bernard</h3>
+                    <h6 class="title text-uppercase"><span class="typer" data-delay="30" data-words="Design is my passion, Web Designer,iOS App Developer, Loving Father, Army Veteran, Welcome to my webpage"></span>|</h6>
+                    <p>I'm founder and C.T.O. of Flyhightech.LLC, born and raised on the southside of Chicago. A loving father, Army Veteran, and self taught software developer with a passion for creating user friendly design and video games. Check out some of my projects below.</p>
+                    <a href="#about" class="btn btn-default btn-rounded theme-bg white-text fill-dark">Learn More</a>
                 </div>
             </div>
-            <div class="media-object">
-                <div class="icon-right">
-                    <img class="icon" src="https://media.giphy.com/media/3oKIPtaS9TtrmIzXRm/giphy.gif" alt="graph image">
-                </div>
-                <div class="blerb-wrapper-left">
-                    <h3 class="blerb-header">Mobile App Design</h3>
-                    <div class="blerb-info">Cardigan wayfarers direct trade VHS, mumblecore tote bag poutine umami aesthetic post-ironic DIY mustache keytar cronut hot chicken. </div>
-                </div>
-            </div>
-            <div class="media-object">
-                <div class="icon-left">
-                    <img class="icon" src="https://media.giphy.com/media/fEUczsosEDagM/giphy.gif" alt="graph image">
-                </div>
-                <div class="blerb-wrapper-right">
-                    <h3 class="blerb-header">Social Network Advertising</h3>
-                    <div class="blerb-info">Glossier seitan 90's quinoa, 3 wolf moon fashion axe jean shorts kogi selvage put a bird on it polaroid freegan mixtape echo park ennui.</div>
-                </div>
-            </div>
-        </div>
-        <div class="quote-btn-wrapper">
-            <button class="quote-btn">Get a quote</button>
         </div>
     </section>
-
-    <section class="portfolio">
+    <section id="about" class="p-0 pos-r">
+        <div class="fullbg parallax bg-left-pos" data-bg-img="images/personal/bg1.jpg"></div>
         <div class="container">
-            <div class="section-header">
-                <h1 class="header">Previous Projects</h1>
-            </div>
-            <div class="portfolio-wrapper">
-                <div class="portfolio-object">
-                    <a href="projects/Business_Website/index.html">
-                        <div class="portfolio-box portfolio-box1"></div>
-                    </a>
-                    <h4>Flyhightech.LLC</h4>
-                    <div class="portfolio-text">
-                        <p>This is the landing page for my tech company Flyhightech.LLC which is based on the south side of chicago. </p>
-                    </div>
-                </div>
-                <div class="portfolio-object">
-                    <a href="projects/CrushFourGame/index.html">
-                        <div class="portfolio-box portfolio-box2"></div>
-                    </a>
-                    <h4>Crush Four Game</h4>
-                    <div class="portfolio-text">
-                        <p>Puzzle game that challenges you to match four candies in a row or column while being able to move each piece in a challenge to beat the clock. </p>
-                    </div>
-                </div>
-                <div class="portfolio-object">
-                    <a href="projects/OneStepGoal_Website/index2.html">
-                        <div class="portfolio-box portfolio-box3"></div>
-                    </a>
-                    <h4>One Step Goal</h4>
-                    <div class="portfolio-text">
-                        <p>A goal setting app that challenges you to meet your goals one step at a time. </p>
-                    </div>
-                </div>
-                <!--                Test            -->
-                <div class="portfolio-object">
-                    <a href="projects/Chill_Site/index.html">
-                        <div class="portfolio-box"></div>
-                    </a>
-                    <h4>Trill Site</h4>
-                    <div class="portfolio-text">
-                        <p>Austin YOLO umami, lumbersexual XOXO portland locavore 8-bit skateboard scenester. Beard jianbing iceland hammock. Gluten-free crucifix chia polaroid woke, biodiesel hammock. Vape wayfarers pinterest hammock beard.</p>
+            <div class="row ">
+                <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
+                    <div class="py-7 pl-7 xs-py-4 sm-py-5 sm-pl-5 xs-pl-1 xs-big-mt">
+                        <div class="heading-block">
+                            <h2 class="heading text-uppercase solid-weight">Profile</h2>
+                            <span class="text-uppercase solid-weight">About My Self</span>
+                            <div class="divider"></div>
+                        </div>
+                        <p class="lead mb-2">Building awesome user interfaces and coding Web/iOS apps for the internets enjoyment.</p>
+                        <p class="mb-2">Designing interfaces that are clean and easy to use is a passion of mine. Making the user experience as intuitive and seamless is always the goal. Clean code when developing web/mobile applications is also a must however if the user can't navigate their way around your app they will not return. Clean an modern wins everytime.</p>
+                        <ul class="line-icon line">
+                            <li>Drone Pilot</li>
+                            <li>Front-End Developer</li>
+                            <li>Digital Content Creator</li>
+                            <li>Social Network Advertiser</li>
+                            <li>Web/Mobile Graphics Designer </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact-container">
-        <div class="container">
-            <div class="section-header">
-                <h1>Availible for hire</h1>
+    <section class="p-0 personal-address">
+        <div class="container-fluid">
+            <div class="row row-eq-height no-gutter">
+                <div class="col-lg-3 col-xs-6 col-xx-12 dark-bg">
+                    <div class="py-3 px-5">
+                        <div class="feature text-center">
+                            <div class="feature-icon white-text"> <span class="lnr lnr-user"></span> </div>
+                            <div class="feature-info white-text">
+                                <span class="h2 theme-text solid-weight">NAME</span>
+                                <p>Bernard A. Huff</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-6 col-xx-12 text-white" data-bg-color="#262830">
+                    <div class="py-3 px-5">
+                        <div class="feature text-center">
+                            <div class="feature-icon white-text"> <span class="lnr lnr-phone"></span> </div>
+                            <div class="feature-info white-text">
+                                <span class="h2 theme-text solid-weight">PHONE</span>
+                                <p>773-413-8392</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-6 col-xx-12 dark-bg">
+                    <div class="py-3 px-5">
+                        <div class="feature text-center">
+                            <div class="feature-icon white-text"> <span class="lnr lnr-laptop-phone"></span> </div>
+                            <div class="feature-info white-text">
+                                <span class="h2 theme-text solid-weight">SKYPE</span>
+                                <p>huff.bernard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-6 col-xx-12 text-white" data-bg-color="#262830">
+                    <div class="py-3 px-5">
+                        <div class="feature text-center">
+                            <div class="feature-icon white-text"> <span class="lnr lnr-envelope"></span> </div>
+                            <div class="feature-info white-text">
+                                <span class="h2 theme-text solid-weight">EMAIL</span>
+                                <p>flyhightech3@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <form class="contact-me" action="">
-                <label for="email">Email</label>
-                <div class="form-group">
-                    <input class="form-control" type="email" id="email">
-                </div>
-                <label for="name">Name</label>
-                <div class="form-group">
-                    <input class="form-control" type="text" id="name">
-                </div>
-                <label for="message">message</label>
-                <div class="form-group">
-                    <textarea class="form-control" id="message" rows="6"></textarea>
-                </div>
-                <div class="submit-btn-wrapper">
-                    <button class="quote-btn">Send Message</button>
-                </div>
-            </form>
         </div>
-
+    </section>
+    <section id="portfolio" class="p-0 pos-r">
+        <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg2.jpg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-6">
+                    <div class="py-7 pr-7 xs-py-4 sm-py-5 sm-pr-5 xs-pr-0 xs-big-mt">
+                        <div class="heading-block">
+                            <h2 class="heading text-uppercase solid-weight">Portfolio</h2>
+                            <span class="text-uppercase solid-weight theme-text">MY BEST WORK</span>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="b-isotope popup-gallery b-isotope-3">
+                            <ul class="mt-2 mb-4 sm-mb-2 b-isotope-filter clearfix list-inline text-center">
+                                <li class="current"><a href="" data-filter="*">all</a></li>
+                                <li><a href="" data-filter=".design">Designs</a></li>
+                                <li><a href="" data-filter=".photo">Websites</a></li>
+                                <li><a href="" data-filter=".app">Apps</a></li>
+                                <li><a href="" data-filter=".branding">Branding</a></li>
+                            </ul>
+                            <ul class="b-isotope-grid grid list-unstyled columns3">
+                                <li class="grid-sizer"></li>
+                                <li class="grid-item design">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/design/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/design/img1.jpg" alt="Design" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item photo">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/photo/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="consultant.html"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/photo/img1.jpg" alt="Photo" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item branding">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/branding/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/branding/img1.jpg" alt="Branding" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item app">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/app/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/app/img1.jpg" alt="App" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item design">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/design/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/design/img2.jpg" alt="Design" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item photo">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/photo/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="construction.html"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/photo/img2.jpg" alt="Photo" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item branding">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/branding/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/branding/img3.jpg" alt="Photo" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item app">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/app/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/app/img3.jpg" alt="App" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item design">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/design/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/design/img3.jpg" alt="design" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item photo">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/photo/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="mobile-app.html"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/photo/img3.jpg" alt="photo" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item app">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/app/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/app/img2.jpg" alt="app" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid-item branding">
+                                    <div class="isotope-img portfolio-item">
+                                        <div class="item-img">
+                                            <div class="overlay"> <a class="link-icon popup-img" href="images/portfolio/branding/img4.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                            <img src="images/portfolio/branding/img4.jpg" alt="branding" />
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Script files below -->
+    <!--    The About Me Section   -->
 
-    <script type="text/javascript" src="main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <section id="skill" class="p-0 pos-r dark-bg theme-bg">
+        <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg3.jpg"></div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
+                    <div class="py-7 pl-7 xs-py-3 xs-pl-0">
+                        <div class="heading-block">
+                            <h2 class="heading text-uppercase solid-weight">About Me</h2>
+                            <span class="text-uppercase solid-weight">I am a professional web developer</span>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="tab clearfix">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="active"><a href="#tab1-1" data-toggle="tab" aria-expanded="false">Skill</a></li>
+                                <li><a href="#tab1-2" data-toggle="tab" aria-expanded="true">Language</a></li>
+                                <li><a href="#tab1-3" data-toggle="tab">Hobbies</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab1-1">
+                                    <p class="mb-6">Eorem ipsum dolor sit amet consectetur adipisicingelit sed eiusmod tempor abore dolore magna aliqua aut enim minim</p>
+                                    <div class="skill skill-boll mb-2">
+                                        <div class="skill-bar">
+                                            <div class="progress-bar" data-percent="80" data-delay="0" data-type="%">
+                                                <div class="progress-title">Swift</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="progress-bar" data-percent="95" data-delay="0" data-type="%">
+                                                <div class="progress-title">HTML</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="progress-bar" data-percent="98" data-delay="0" data-type="%">
+                                                <div class="progress-title">CSS</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="progress-bar" data-percent="75" data-delay="0" data-type="%">
+                                                <div class="progress-title">Javascript</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="tab1-2">
+                                    <p>Neque porro quisquam est, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                    <div class="row mt-3 mb-1">
+                                        <div class="col-xs-4 col-xx-12 p-0 text-center xs-mb-3">
+                                            <div class="rounded-skill nobottommargin" data-color="#fff" data-size="120" data-percent="85" data-width="5" data-speed="6500">
+                                                <div class="counter counter-inherit"> <span class="timer" data-from="1" data-to="85" data-refresh-interval="50" data-speed="6000"></span>% </div>
+                                            </div>
+                                            <h4 class="title">HTML</h4>
+                                        </div>
+                                        <div class="col-xs-4 col-xx-12 p-0 text-center xs-mb-3">
+                                            <div class="rounded-skill nobottommargin" data-color="#fff" data-size="120" data-percent="95" data-width="5" data-speed="6500">
+                                                <div class="counter counter-inherit"> <span class="timer" data-from="1" data-to="95" data-refresh-interval="50" data-speed="6000"></span>% </div>
+                                            </div>
+                                            <h4 class="title">SWIFT</h4>
+                                        </div>
+                                        <div class="col-xs-4 col-xx-12 p-0 text-center">
+                                            <div class="rounded-skill nobottommargin" data-color="#fff" data-size="120" data-percent="80" data-width="5" data-speed="6500">
+                                                <div class="counter counter-inherit"> <span class="timer" data-from="1" data-to="80" data-refresh-interval="50" data-speed="6000"></span>% </div>
+                                            </div>
+                                            <h4 class="title">CSS</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="tab1-3">
+                                    <p class="mb-3">when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="feature icon-position-left">
+                                        <div class="feature-icon"><i class="lnr lnr-bicycle theme-text"></i></div>
+                                        <div class="feature-info">
+                                            <h5 class="solid-weight">Bicycle</h5>
+                                            <p>To explore strange new worlds to seek out new life and new civilizations.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature icon-position-left mt-3">
+                                        <div class="feature-icon"><i class="lnr lnr-camera theme-text"></i></div>
+                                        <div class="feature-info">
+                                            <h5 class="solid-weight">Photography</h5>
+                                            <p>To explore strange new worlds to seek out new life and new civilizations.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature icon-position-left mt-3">
+                                        <div class="feature-icon"><i class="icon-pencil icons theme-text"></i></div>
+                                        <div class="feature-info">
+                                            <h5 class="solid-weight">Painting</h5>
+                                            <p>To explore strange new worlds to seek out new life and new civilizations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="history" class="p-0 pos-r dark-bg">
+        <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg5.jpg"></div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-8 col-md-6">
+                    <div class="py-7 pr-7 xs-py-4 sm-py-5 sm-pr-5 xs-pr-1 xs-big-mt">
+                        <div class="heading-block">
+                            <h2 class="heading text-uppercase solid-weight">My Journey</h2>
+                            <span class="text-uppercase solid-weight">Work Experience</span>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="timeline timeline-3 clearfix">
+                            <div class="timeline-panel">
+                                <label class="year theme-bg">1995</label>
+                                <div class="timeline-body">
+                                    <h5 class="title theme-text">New York Photo Guide</h5>
+                                    <span class="small mb-1">ILLUSTRATION, DESIGN, PHOTO</span>
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-panel">
+                                <label class="year theme-bg">2005</label>
+                                <div class="timeline-body">
+                                    <h5 class="title theme-text">New York Photo Guide</h5>
+                                    <span class="small mb-1">ILLUSTRATION, DESIGN, PHOTO</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-panel">
+                                <label class="year theme-bg">2010</label>
+                                <div class="timeline-body">
+                                    <h5 class="title theme-text">New York Photo Guide</h5>
+                                    <span class="small mb-1">ILLUSTRATION, DESIGN, PHOTO</span>
+                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea lorem ipsum dolor sit amet, consectetur adipiscing elit, commodo consequat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="p-0 pos-r xs-pb-5 ">
+        <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg4.jpg"></div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
+                    <div class="py-7 pl-7 xs-py-4 sm-py-5 sm-pl-5 xs-pl-0 xs-big-mt">
+                        <div class="heading-block">
+                            <h2 class="heading text-uppercase solid-weight">Contact Us</h2>
+                            <span class="text-uppercase solid-weight">Feel free to contact me</span>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6 class="solid-weight mb-0">Facebook Page</h6>
+                                <ul class="list-unstyled address">
+                                    <li><a href="https://www.facebook.com/flyhightech3/"> <i class="lnr lnr-smartphone"></i><span>Flyhightech.LLC</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="solid-weight mb-0">Skype Name</h6>
+                                <ul class="list-unstyled address">
+                                    <li><i class="lnr lnr-map-marker"></i><span>huff.bernard</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <form role="form" class="border-bottom">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input name="first_name" id="first_name" class="form-control" placeholder="First Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input name="last_name" id="last_name" class="form-control" placeholder="Last Name" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input name="email" id="email" class="form-control" placeholder="E-mail" type="email">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input name="phone" id="phone" class="form-control" placeholder="Phone Number" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="comment" class="form-control" id="comment" placeholder="Comment"></textarea>
+                            </div>
+                            <a href="#" class="btn btn-default btn-rounded btn-outline fill-theme">Submit</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-dark">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                        <h6 class="text-uppercase">About Flyhightech.LLC</h6>
+                        <ul class="list-unstyled address">
+                            <li><i class="lnr lnr-map-marker"></i><span>Chicago, Il 60653</span></li>
+                            <li><i class="lnr lnr-envelope"></i><a href="mailto:flyhightech3@gmail.com">flyhightech3@gmail.com</a></li>
+                            <li><i class="lnr lnr-phone-handset"></i><span>(773) 413-8392</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                        <h6 class="text-uppercase">Categories</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Graphic Design </a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Drone Photography</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Finance </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                        <h6 class="text-uppercase">ARCHIVES</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">March 2019</a></li>
+                            <li><a href="#">February 2019</a></li>
+                            <li><a href="#">January 2019</a></li>
+                            <li><a href="#">Dec 2018</a></li>
+                            <li><a href="#">Nov 2018</a></li>
 
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                        <h6 class="text-uppercase">RECENT POSTS</h6>
+                        <ul class="list-unstyled recent-post">
+                            <li><a href="#">Be My Guest<span>Mar 10,2019</span></a></li>
+                            <li><a href="#">Ownage In The Mountains<span>February 14,2017</span></a></li>
+                            <li><a href="#">The Field<span>March 23,2017</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copy right -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">© 2017 Pecto All rights reserved</div>
+                    <div class="col-sm-6 text-right">
+                        <ul class="list-unstyled list-inline footer-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
+                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top -->
+    <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+    <!-- jquery  -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- appear -->
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <!-- owl-carousel -->
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- counter -->
+    <script type="text/javascript" src="js/counter/jquery.countTo.js"></script>
+    <!-- counter -->
+    <script type="text/javascript" src="js/jquery.piechart.js"></script>
+    <!-- isotope -->
+    <script src="js/isotope/isotope.pkgd.min.js"></script>
+    <script src="js/isotope/imagesLoaded.js"></script>
+    <!-- Bootsnavs -->
+    <script src="js/bootsnav.js"></script>
+    <!-- Bootsnavs -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Typer -->
+    <script src="js/typer.js"></script>
+    <!-- custom -->
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
-
-</html>
+         </html>
