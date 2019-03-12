@@ -25,6 +25,7 @@
     <meta content="" name="author" />
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <!-- font-awesome -->
@@ -57,36 +58,121 @@
     <div id="preloader">
         <div class="clear-loading loading-effect"><img src="images/loading.gif" width="100" alt=""></div>
     </div>
-    <nav class="navbar navbar-default navbar-fixed no-background dark navbar-scrollspy navbar-full bootsnav" data-minus-value-desktop="77" data-minus-value-mobile="0" data-speed="1000">
-        <div class="container pos-r">
+    <nav class="navbar navbar-default navbar-fixed white  no-background bootsnav">
+        <!-- Start Top Search -->
+        <div class="top-search">
+            <div class="container">
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Search -->
+        <div class="container-fuild px-2 py-1">
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+                <ul>
+                    <li class="search"><a href="#"><i class="icon-magnifier icons"></i></a></li>
+                    <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <!-- End Atribute Navigation -->
             <!-- Start Header Navigation -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i class="fa fa-bars"></i></button>
-                <a class="navbar-brand" href="#brand"><img src="images/brand/logo-black.png" class="logo" alt=""></a>
+                <!--                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>-->
+                <a class="navbar-brand" href="index-default.html">
+                    <img src="images/brand/logo-white.png" class="logo logo-display" alt="">
+                    <img src="images/brand/logo-black.png" class="logo logo-scrolled" alt="">
+                </a>
             </div>
             <!-- End Header Navigation -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Megamenu -->
             <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav" data-in="zoomIn" data-out="zoomOut">
-                    <li class="active scroll"><a href="#home">Home</a></li>
-                    <li class="scroll"><a href="#about">About</a></li>
-                    <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                    <li class="scroll"><a href="#skill">Skill</a></li>
-                    <li class="scroll"><a href="#history">History</a></li>
-                    <li class="scroll"><a href="#contact">Contact</a></li>
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li>
+                        <a href="index.html">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Grid</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio-grid-2-col.html">2 Columns</a></li>
+                                    <li><a href="portfolio-grid-3-col.html">3 Columns</a></li>
+                                    <li><a href="portfolio-grid-4-col.html">4 Columns</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Masonry</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio-masonry-2-col.html">2 Columns</a></li>
+                                    <li><a href="portfolio-masonry-3-col.html">3 Columns</a></li>
+                                    <li><a href="portfolio-masonry-4-col.html">4 Columns</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Standard</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio-standard-2-col.html">2 Columns</a></li>
+                                    <li><a href="portfolio-standard-3-col.html">3 Columns</a></li>
+                                    <li><a href="portfolio-standard-4-col.html">4 Columns</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio-details.html">Single Post</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
+        <!-- Start Side Menu -->
+        <div class="side dark-bg">
+            <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+            <div class="widget">
+                <p class="text-center my-3"><img src="images/brand/logo-white.png" class="logo" alt="" /></p>
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="widget">
+                <h6 class="text-uppercase">OFFICE 01</h6>
+                <ul class="list-unstyled address">
+                    <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
+                    <li><i class="lnr lnr-envelope"></i><span>support@yourname.com</span></li>
+                    <li><i class="icon-phone"></i><span>(+91) 123-456-7890</span></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <div class="social-icons animated color">
+                    <ul class="clearfix">
+                        <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                        <li class="social-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Side Menu -->
     </nav>
     <div class="clearfix"></div>
-    <section id="home" class="full-height bg header-slide single-image" data-bg-img="">
+    <section id="home" class="full-height bg header-slide single-image" data-bg-img="images/personal/main-img.jpg">
 
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-left">
                     <h3 class="title text-uppercase theme-text">Hi, I'm Bernard</h3>
-                    <h6 class="title text-uppercase"><span class="typer" data-delay="30" data-words="Design is my passion, Web Designer,iOS App Developer, Loving Father, Army Veteran, Welcome to my webpage"></span>|</h6>
+                    <h6 class="title text-uppercase"><span class="typer" data-delay="40" data-words="Design is my passion, Web Designer,iOS App Developer, Loving Father, Army Veteran, Welcome to my webpage"></span>|</h6>
                     <p>I'm founder and C.T.O. of Flyhightech.LLC, born and raised on the southside of Chicago. A loving father, Army Veteran, and self taught software developer with a passion for creating user friendly design and video games. Check out some of my projects below.</p>
                     <a href="#about" class="btn btn-default btn-rounded theme-bg white-text fill-dark">Learn More</a>
                 </div>
@@ -443,7 +529,7 @@
                 <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
                     <div class="py-7 pl-7 xs-py-4 sm-py-5 sm-pl-5 xs-pl-0 xs-big-mt">
                         <div class="heading-block">
-                            <h2 class="heading text-uppercase solid-weight">Contact Us</h2>
+                            <h2 class="heading text-uppercase solid-weight">Contact Info</h2>
                             <span class="text-uppercase solid-weight">Feel free to contact me</span>
                             <div class="divider"></div>
                         </div>
