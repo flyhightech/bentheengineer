@@ -1,0 +1,49 @@
+
+/*==============================================
+ Base
+ ===============================================*/
+a:hover, a:focus { color: #297fb8;}
+
+.theme-text,  h1.theme-text, h2.theme-text, h3.theme-text, h4.theme-text, h5.theme-text, h6.theme-text{color:#297fb8;}
+.dark-bg{background:#1a1a1c;}
+.grey-bg{background:#f6f6f6;}
+.theme-bg{background:#297fb8;}
+.post-overlay{background:#297fb8;}
+
+/* Step */
+.feature-box.feature-text1 .step{color:#297fb8;}
+.feature-box.feature-text1 .step:before{background:#297fb8;}
+
+.fullbg_md{width: 40%}
+
+/**************************/
+/* Button Setting */
+/**************************/
+.btn.theme-bg{background:#297fb8;}
+.btn.theme-text, .btn-link{color:#297fb8;}
+.btn.theme-border{border-color:#297fb8;}
+.btn.theme-outline{border-color:#297fb8;}
+
+.btn-default, .btn-default:hover{background:#297fb8;}
+.btn-outline{border-color:#297fb8; color:#297fb8; background:transparent;}
+.btn-outline:hover{background:transparent;}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:active:focus{border-color:#297fb8; color:#297fb8;}
+
+.btn.fill-theme:before{background:#297fb8;}
+.btn.fill-theme:hover{border-color:#297fb8;}
+
+/**************************/
+/* Extra */
+/**************************/
+.post-overlay,
+.progress-bar,
+.overlay[data-overlay-color="theme"]:after{background:#297fb8;}
+.post.light-box .post-image > i{color:#297fb8;}
+.post.light-box .categery{border-color:#297fb8; color:#297fb8;}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#297fb8;}
+
+#back-to-top .top{background:#297fb8;}
